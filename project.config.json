@@ -1,59 +1,85 @@
 {
-	"description": "项目配置文件。",
-	"setting": {
-		"urlCheck": true,
-		"es6": true,
-		"postcss": true,
-		"minified": true,
-		"newFeature": true
-	},
-	"compileType": "miniprogram",
-	"libVersion": "2.4.2",
-	"appid": "wxade372ce7f2da061",
-	"projectname": "%E6%B5%8B%E8%AF%952",
-	"condition": {
-		"search": {
-			"current": -1,
-			"list": []
-		},
-		"conversation": {
-			"current": -1,
-			"list": []
-		},
-		"plugin": {
-			"current": -1,
-			"list": []
-		},
-		"game": {
-			"list": []
-		},
-		"miniprogram": {
-			"current": 3,
-			"list": [
-				{
-					"id": -1,
-					"name": "地图",
-					"pathName": "pages/map/index",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "zhufu",
-					"pathName": "pages/bless/index",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "poster",
-					"pathName": "pages/poster/index",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "留言",
-					"pathName": "pages/chat/index"
-				}
-			]
-		}
-	}
+  "description": "项目配置文件。",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": []
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.4.2",
+  "appid": "wx38a40ad60b0b2844",
+  "projectname": "%E4%B9%90%E6%9D%A5%E7%9A%84%E5%A9%9A%E7%A4%BC%E8%AF%B7%E6%9F%AC",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "plugin": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "miniprogram": {
+      "current": 3,
+      "list": [
+        {
+          "id": -1,
+          "name": "地图",
+          "pathName": "pages/map/index",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "zhufu",
+          "pathName": "pages/bless/index",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "poster",
+          "pathName": "pages/poster/index",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "留言",
+          "pathName": "pages/chat/index"
+        }
+      ]
+    }
+  }
 }

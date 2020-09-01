@@ -14,6 +14,16 @@ Page({
   data: {
     animationData: "",
     userInfo: {},
+    mainInfo: {
+      he: '邓乐来',
+      she: '聂唯倩',
+      he_tel: 0,
+      she_tel: 0,
+      date: '2020年10月6日',
+      lunar: '八月二十',
+      address: '江西省赣州市赣县区杨仙大道与万里路交叉',
+      hotel: '新饭店4层宴会厅',
+    },
     music_url: '',
     isPlayingMusic: true
   },

@@ -30,13 +30,13 @@ App({
     userInfo: null,
 
     // 下面填写酒店相关信息
-    lat: 30.0000,
-    lon: 120.000000,
-    addressName: "希尔顿大酒店",
+    lat: 25.851817,
+    lon: 115.017361,
+    addressName: "新饭店4层宴会厅",
 
-    appid: 'wx349xxxxxxx', //此处改成您自己的小程序appid
+    appid: 'wx38a40ad60b0b2844', //此处改成您自己的小程序appid
     uid: 1,
     server: 'http://localhost:8080/wx',
-    music_url: ''
+    music_url: 'https://music.163.com/song/media/outer/url?id=541687281.mp3'
   }
 });
